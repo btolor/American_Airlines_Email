@@ -1,0 +1,524 @@
+.body {
+  background: #E9E9E9 !important;
+}
+
+.header-container {
+  .header-row {
+    .logo {
+      padding-bottom: 0 !important;
+      padding-top: 10px;
+    }
+
+    .user {
+      padding-bottom: 0 !important;
+      padding-top: 10px;
+    }
+  }
+
+  .border-row {
+    .border {
+      border-bottom: 1px solid $border-color;
+      padding-top: 14px;
+      padding-bottom: 0;
+    }
+  }
+
+
+  .sub-header-row {
+    .columns {
+      padding-top: 18px;
+      padding-bottom: 14px;
+    }
+
+    .hello,
+    .date {
+      font-size: 14px;
+      font-family: $font;
+      margin-bottom: 0;
+    }
+  }
+
+  .confirmation-banner-row {
+    .confirmation-banner {
+      width: 100%;
+      background-image: url('https://imgur.com/sfIrrHy.png');
+      padding-bottom: 0;
+
+      .ticket-row {
+        .columns {
+          padding-top: 18px;
+          padding-bottom: 0;
+
+          img {
+            width: 60px;
+            margin: 0 auto;
+          }
+        }
+      }
+
+      .info-row {
+        .columns {
+          padding-bottom: 0;
+
+          h4 {
+            text-align: center;
+            font-family: $font;
+            color: white;
+            font-size: 27px;
+            padding-top: 18px;
+          }
+        }
+      }
+    }
+  }
+
+  .record-row {
+    .columns {
+      padding-bottom: 30px;
+      padding-top: 26px;
+
+      p {
+        text-align: center;
+        font-family: $font;
+        font-size: 20px;
+        color: $text-dark;
+        margin-bottom: 0;
+
+        span {
+          font-weight: 900;
+        }
+      }
+    }
+  }
+
+  .view-trip-link-row {
+    .columns {
+      th {
+        text-align: center;
+      }
+
+      a {
+        border: 1px solid $text-blue;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 80px;
+        padding-right: 80px;
+        border-radius: 3px;
+        font-size: 16px;
+        font-family: $font;
+
+      }
+    }
+  }
+
+  .border-row {
+    .border {
+      border-bottom: 1px solid $border-color;
+      padding-top: 24px;
+      padding-bottom: 0;
+    }
+  }
+
+}
+
+.flight-A-container,
+.flight-B-container {
+  .flight-day-title-row {
+    width: 95%;
+    margin: 0 auto;
+
+    h4 {
+      font-size: 21px;
+      color: $text-blue;
+      padding-top: 30px;
+    }
+  }
+
+  .flight-data-row {
+    width: 95%;
+    margin: 0 auto;
+
+    th {
+      padding-bottom: 5px;
+    }
+
+    .departure {
+      padding-right: 0;
+    }
+
+    .departure,
+    .arrival {
+      h5 {
+        font-size: 16px;
+        color: $text-green-dark;
+        font-family: $font;
+        margin-bottom: 5px;
+      }
+
+      h2 {
+        font-size: 27px;
+        color: $text-dark;
+        font-family: $font;
+        margin-bottom: 3px;
+
+        span {
+          font-size: 16px;
+          color: $text-green-dark;
+        }
+      }
+
+      p {
+        font-size: 12px;
+        font-family: $font;
+        color: $text-green-light;
+        margin-bottom: 0;
+      }
+    }
+
+    .arrow {
+      width: 26px;
+      padding-top: 15px;
+
+      img {
+        margin-left: -50px;
+      }
+
+    }
+
+    .seats {
+      p {
+        font-size: 14px;
+        margin-bottom: 0;
+
+        a {
+          color: $seat-number;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .airliner-row {
+    width: 95%;
+    margin: 0 auto;
+
+    .columns {
+      padding-bottom: 5%;
+
+      .plane {
+        font-family: $font;
+        font-size: 14px;
+        color: $text-green-dark;
+        margin-bottom: 0;
+      }
+
+      .opperator {
+        font-family: $font;
+        font-size: 12px;
+        color: $text-green-light;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  .border-row {
+    .border {
+      border-bottom: 1.5px dashed $border-color;
+      padding-bottom: 0;
+    }
+  }
+}
+
+
+.info-container {
+  .border-row {
+    .border {
+      border-bottom: 1px solid $border-color;
+      padding-bottom: 0;
+    }
+  }
+
+  .info-row {
+    width: 95%;
+    margin: 0 auto;
+
+    .name-col,
+    .card-col {
+      padding-top: 26px;
+
+      h2 {
+        font-family: $font;
+        font-size: 22px;
+        color: $text-blue;
+        padding-bottom: 0;
+      }
+
+      img {
+        width: 265px;
+      }
+
+      .advantage {
+        font-family: $font;
+        font-size: 14px;
+        color: $text-green-light;
+        margin-bottom: 5px;
+      }
+
+      .ticket {
+        font-family: $font;
+        font-size: 16px;
+        color: $text-dark;
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+  .payment-container {
+    width: 95%;
+    margin: 0 auto;
+
+    .receipt-title-row {
+      .columns {
+        padding-top: 0;
+        padding-bottom: 5px;
+        padding-right: 0;
+        padding-left: 0;
+      }
+
+      h1 {
+        font-size: 27px;
+        font-family: $font;
+        color: $text-blue;
+      }
+    }
+
+    .payment-row {
+      .payment-col {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+
+        img {
+          width: 49px;
+          margin: 0 !important;
+        }
+      }
+
+      .number-col {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+
+        p {
+          margin-left: -18px;
+          font-family: $font;
+          font-size: 14px;
+          color: $text-green-light;
+        }
+      }
+    }
+
+    .name-row {
+      .columns {
+        padding-top: 28px;
+        padding-bottom: 0;
+        padding-right: 0;
+        padding-left: 0;
+
+        p {
+          margin-bottom: 15px;
+          font-weight: 900;
+          font-size: 16px;
+          font-style: italic;
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+      }
+    }
+
+    .fees-row {
+
+      .category,
+      .amounts {
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 0;
+        padding-top: 0;
+
+        p {
+          font-size: 14px;
+          color: $text-green-light;
+          font-family: $font;
+          margin-bottom: 3px;
+        }
+
+        .total {
+          font-weight: 700;
+        }
+      }
+
+      .amounts {
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+
+}
+
+.offers-container {
+  .offer-icon-row {
+    .columns {
+      th {
+        text-align: center;
+        padding-top: 28px;
+        padding-bottom: 18px;
+      }
+
+      img {
+        width: 95px;
+        padding-bottom: 6px;
+      }
+
+      a {
+        font-size: 14px;
+        font-weight: 600;
+        color: $icon-blue;
+      }
+    }
+  }
+
+  .ads-top-row,
+  .ads-bottom-row {
+    .ad {
+      padding-bottom: 4px;
+    }
+  }
+}
+
+.footer {
+  .links-row {
+    .columns {
+      p {
+        text-align: center;
+        margin-bottom: 0;
+        padding-top: 22px;
+        font-size: 14px;
+        font-family: $font;
+        color: $icon-blue;
+
+        a {
+          color: $icon-blue;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .app-store-container {
+    width: 55%;
+    margin: 0 auto;
+    background: $app-bg;
+    background-color: $app-bg;
+
+    .title-row {
+      .columns {
+        padding-bottom: 5px;
+        padding-top: 14px;
+      }
+
+      p {
+        text-align: center;
+        font-family: $font;
+        font-size: 12px;
+        color: $text-blue;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .baggage-info-title-row {
+    .columns {
+      padding-bottom: 0;
+      padding-top: 16px;
+
+      p {
+        font-family: $font;
+        font-size: 13px;
+        font-weight: 600;
+        color: $text-green-light;
+      }
+    }
+  }
+
+  .baggage-info-row,
+  .non-refund-row,
+  .refund-policy-row,
+  .codeshare-row,
+  .airport-info-row,
+  .product-row,
+  .battery-row,
+  .exceptions-row,
+  .required-row,
+  .traveling-row,
+  .reservation-row,
+  .notice-term-row,
+  .transportation-row,
+  .additional-info-row,
+  .carrier-row,
+  .notice-row,
+  .code-row {
+    .columns {
+      padding-bottom: 0;
+
+      p {
+        font-family: $font;
+        font-size: 13px;
+        color: $text-green-light;
+
+        a {
+          color: $icon-blue;
+        }
+      }
+
+      .airport-info {
+        font-weight: 700;
+        padding-top: 16px;
+
+        a {
+          color: $icon-blue;
+          font-weight: 700;
+        }
+      }
+
+      .notice-term {
+        font-weight: 700;
+      }
+    }
+  }
+
+  .icons-row {
+    width: 90%;
+    margin: 0 auto;
+
+    th {
+      padding-top: 0;
+      padding-bottom: 0;
+      padding-right: 0;
+      padding-left: 0;
+    }
+
+    .columns {
+      padding-top: 14px;
+      padding-bottom: 18px;
+
+      img {
+        width: 60px;
+      }
+    }
+  }
+
+}
